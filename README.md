@@ -1,10 +1,10 @@
 # Dismiss Privacy Nag
 
-Dismiss Privacy and Personal Data Dashboard Nag Pointer Tooltip Notification, when it is activated, or if it is in mu-plugins directory.
+Dismiss Privacy and Personal Data Dashboard Nag Pointer Tooltip Notification, when it is activated, or if it is in mu-plugins.
 
 Why this plugin?
 
-Seem that the new privacy pointer is not "totally" auto dismissible when is clicked one of the any admin menu links, for example:
+Seem that the new privacy pointer is not "totally" auto dismissible when is clicked one of the admin menu links, for example:
 
  - If one of the any admin menu links was clicked, the privacy pointer disappear.
  - If the dasboard admin menu link was clicked, the privacy pointer not disappear, return visible, and nagging user.
