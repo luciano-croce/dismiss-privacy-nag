@@ -13,7 +13,7 @@ Seem that the new privacy pointer is not "totally" auto dismissible when is clic
  
 <code>remove_action( 'admin_print_footer_scripts', array( 'WP_Internal_Pointers', 'pointer_wp496_privacy' ) );</code>
 
-Based on [Detailed Guidelines 11](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#12-public-facing-pages-on-wordpress-org-readmes-must-not-spam): plugins should not hijack the admin dashboard. 
+Based to the [Detailed Guidelines 11](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#12-public-facing-pages-on-wordpress-org-readmes-must-not-spam): plugins should not hijack the admin dashboard. 
 
  * Users prefer and expect plugins to feel like part of WordPress.
  * Constant nags and overwhelming the admin dashboard with unnecessary alerts detract from this experience.
