@@ -8,7 +8,7 @@ Seem that the new privacy pointer is not "totally" auto dismissible when is clic
 
  - If one of the any admin menu links was clicked, the privacy pointer disappear.
  - If the dasboard admin menu link was clicked, the privacy pointer not disappear, return visible, and nagging user.
- - The privacy pointer is misaligned to admin menu when exist other admin menu items of 3rd party: https://core.trac.wordpress.org/ticket/43996/
+ - The [privacy pointer is misaligned to admin menu](https://core.trac.wordpress.org/ticket/43996/) when exist other admin menu items of 3rd party: 
  - The suggested code remove_action( 'admin_print_footer_scripts', array( 'WP_Internal_Pointers', 'pointer_wp496_privacy' ) ); to auto dismiss it seem to not working well.
 
 Based on Detailed Guidelines 11: plugins should not hijack the admin dashboard. 
