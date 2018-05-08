@@ -13,15 +13,13 @@ Seem that the new privacy pointer is not "totally" auto dismissible when is clic
  
 <code>remove_action( 'admin_print_footer_scripts', array( 'WP_Internal_Pointers', 'pointer_wp496_privacy' ) );</code>
 
-Based on Detailed Guidelines 11: plugins should not hijack the admin dashboard. 
+Based on [Detailed Guidelines 11](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#12-public-facing-pages-on-wordpress-org-readmes-must-not-spam): plugins should not hijack the admin dashboard. 
 
  * Users prefer and expect plugins to feel like part of WordPress.
  * Constant nags and overwhelming the admin dashboard with unnecessary alerts detract from this experience.
  * Upgrade prompts, notices, alerts, and the like must be limited in scope and used sparingly, be that contextually or only on the plugin’s setting page.
  * Site wide notices or embedded dashboard widgets must be dismissible or self-dismiss when resolved.
  * Error messages and alerts must include information on how to resolve the situation, and remove themselves when completed.
-
-Reference: https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#12-public-facing-pages-on-wordpress-org-readmes-must-not-spam
 
 Privacy: Add an admin pointer for new privacy features in 4.9.6.
 
