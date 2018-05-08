@@ -40,13 +40,17 @@ Dismiss all the new feature pointers.
 @since 3.3.0
 
 All pointers can be disabled using the following:
- remove_action( 'admin_enqueue_scripts', array( 'WP_Internal_Pointers', 'enqueue_scripts' ) );
- @param string $hook_suffix The current admin page.
+
+<code>remove_action( 'admin_enqueue_scripts', array( 'WP_Internal_Pointers', 'enqueue_scripts' ) );</code>
+
+@param string $hook_suffix The current admin page.
 
 Dismiss a pointer for the new privacy tools.
 
 @since 4.9.6
 
 Privacy pointer can be disabled using the following:
- remove_action( 'admin_print_footer_scripts', array( 'WP_Internal_Pointers', 'pointer_wp496_privacy' ) );
- @param string $hook_suffix The current admin page.
+
+<code>remove_action( 'admin_print_footer_scripts', array( 'WP_Internal_Pointers', 'pointer_wp496_privacy' ) );</code>
+
+@param string $hook_suffix The current admin page.
