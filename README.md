@@ -27,13 +27,13 @@ Privacy: Add an admin pointer for new privacy features in 4.9.6.
  * They're also spread across multiple top-level menus, making them less discoverable.
  * An admin pointer will help to ensure that users are aware of the new tools and how to find them.
 
-Props desrosj, andreamiddleton, allendav, xkon. 
+Props desrosj, andreamiddleton, allendav, xkon.
 Fixes #43942 ?
 
- * 4.9.6-alpha-43159     -> https://build.trac.wordpress.org/browser/branches/4.9?rev=42988
- * 4.9.6-alpha-42959-src -> https://core.trac.wordpress.org/browser/branches/4.9?rev=43159
- * 5.0-alpha-43158       -> https://build.trac.wordpress.org/browser/trunk?rev=42987
- * 5.0-alpha-42970-src   -> https://core.trac.wordpress.org/browser/trunk?rev=43158
+ * [4.9.6-alpha-43159](https://build.trac.wordpress.org/browser/branches/4.9?rev=42988)
+ * [4.9.6-alpha-42959-src](https://core.trac.wordpress.org/browser/branches/4.9?rev=43159)
+ * [5.0-alpha-43158](https://build.trac.wordpress.org/browser/trunk?rev=42987)
+ * [5.0-alpha-42970-src](https://core.trac.wordpress.org/browser/trunk?rev=43158)
 
 Dismiss all the new feature pointers.
 
