@@ -1,11 +1,11 @@
-<?php 
+<?php
 /*
  Plugin Name:       Dismiss Privacy Nag
  Plugin URI:        https://github.com/luciano-croce/dismiss-privacy-nag/
  Description:       Dismiss Privacy and Personal Data Dashboard Nag Pointer Tooltip Notification, when it is activated, or if it is in mu-plugins directory.
  Version:           0.0.1
  Requires at least: 4.9.6-alpha-42959-src
- Tested up to:      5.0-alpha
+ Tested up to:      5.1-beta
  Requires PHP:      5.2.4
  Author:            Luciano Croce
  Author URI:        https://github.com/luciano-croce/
