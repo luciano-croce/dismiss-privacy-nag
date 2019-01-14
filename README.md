@@ -54,6 +54,8 @@ Privacy pointer can be disabled using the following:
 
 @param string $hook_suffix The current admin page.
 
-Credits
+Credits:
 
-Issue (bug) fixed by my brother Garrett Hyder and tested from Pascal Birchler (swissspidy): refer to [Ticket 45529](https://core.trac.wordpress.org/ticket/45529) opened by Dale Harrison.
+Issue (bug) fixed by my brother Garrett Hyder @garrett-eclipse and tested from Pascal Birchler @swissspidy: refer to [Ticket 45529](https://core.trac.wordpress.org/ticket/45529) opened by Dale Harrison.
+
+Thanks to all!
