@@ -53,3 +53,7 @@ Privacy pointer can be disabled using the following:
 <code>remove_action( 'admin_print_footer_scripts', array( 'WP_Internal_Pointers', 'pointer_wp496_privacy' ) );</code>
 
 @param string $hook_suffix The current admin page.
+
+Credits
+
+Issue (bug) fixed by my brother Garrett Hyder and tested from Pascal Birchler (swissspidy): refer to [Ticket 45529](https://core.trac.wordpress.org/ticket/45529) opened by Dale Harrison.
