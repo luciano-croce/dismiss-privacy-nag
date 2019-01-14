@@ -56,6 +56,6 @@ Privacy pointer can be disabled using the following:
 
 Credits:
 
-Issue (bug) fixed by my brother Garrett Hyder @garrett-eclipse and tested from Pascal Birchler @swissspidy: refer to [Ticket 45529](https://core.trac.wordpress.org/ticket/45529) opened by Dale Harrison.
+Issue (bug) <strong>fixed by my brother Garrett Hyder</strong> @garrett-eclipse and tested from Pascal Birchler @swissspidy: refer to [Ticket 45529](https://core.trac.wordpress.org/ticket/45529) opened by Dale Harrison.
 
 Thanks to all!
