@@ -95,12 +95,11 @@ $dismiss_pointer_wp496_privacy = new dismiss_pointer_wp496_privacy;
 class dismiss_pointer_wp496_privacy{
 
 	public function __construct(){
-		add_action( 'admin_init', array( $this, 'remove_action' ) );
+		add_action( 'admin_enqueue_scripts', array( $this, 'remove_action' ), 11 );
 	}
 
 	function remove_action(){
-//		remove_action( 'admin_print_footer_scripts', array( 'WP_Internal_Pointers', 'pointer_wp496_privacy' ) ); # This for now not work: due a bug? Investigating... wp496_privacy ???
-		remove_action( 'admin_enqueue_scripts', array( 'WP_Internal_Pointers', 'enqueue_scripts' ) );
+		remove_action( 'admin_print_footer_scripts', array( 'WP_Internal_Pointers', 'pointer_wp496_privacy' ) );
 	}
 
 }
