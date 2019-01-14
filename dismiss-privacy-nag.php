@@ -25,6 +25,7 @@
  * - If the dasboard admin menu link was clicked, the privacy pointer not disappear, return visible, and nagging user.
  * - The privacy pointer is misaligned to admin menu when exist other admin menu items of 3rd party -- https://core.trac.wordpress.org/ticket/43996/
  * - The suggested code to auto dismiss it seem to not working well -- remove_action( 'admin_print_footer_scripts', array( 'WP_Internal_Pointers', 'pointer_wp496_privacy' ) );
+ * - The remove_action for pointer_wp496_privacy needed to be called from the admin_enqueue_scripts action with a priority of 11.
  *
  * Based to the Detailed Guidelines 11: plugins should not hijack the admin dashboard. 
  *
